@@ -25,11 +25,12 @@
     "update": "ng update @nrwl/workspace",
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "scully": "scully",
+    "scully:serve": "scully serve"
   },
   "private": true,
   "dependencies": {
-    "@nrwl/angular": "10.0.6",
     "@angular/animations": "^10.0.0",
     "@angular/common": "^10.0.0",
     "@angular/compiler": "^10.0.0",
@@ -38,7 +39,12 @@
     "@angular/platform-browser": "^10.0.0",
     "@angular/platform-browser-dynamic": "^10.0.0",
     "@angular/router": "^10.0.0",
+    "@nrwl/angular": "10.0.6",
+    "@scullyio/init": "^1.0.0-beta.0",
+    "@scullyio/ng-lib": "^1.0.0-beta.0",
+    "@scullyio/scully": "^1.0.0-beta.0",
     "rxjs": "~6.5.5",
+    "scully-plugin-disable-angular": "^5.4.0",
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
